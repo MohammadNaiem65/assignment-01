@@ -4,7 +4,6 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #fff;
 }
 
 .banner {
@@ -19,12 +18,63 @@
     top: 216px;
     right: 130px;
     text-align: right;
+    color: #fff;
 }
 
 .banner-details .title {
     font-size: 65px;
     font-weight: bold;
 }
-.banner-details .details{
-    margin-top: 30px;
+
+.banner-details .details {
+    margin-top: 25px;
+}
+
+.banner-details .contact {
+    width: 150px;
+    padding: 15px 25px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.body {
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 130px;
+}
+
+.failure-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.failure-section div img{
+    width: 450px;
+    margin-left: 50px;
+}
+
+.failure-section .failure-details {
+    width: 420px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.failure-section .failure-details .failure-title {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.failure-section .failure-details .failures {
+    margin-top: 15px;
+}
+
+.failure-section .failure-details .failures .fa-solid {
+    color: #16D887;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
